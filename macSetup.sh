@@ -104,6 +104,8 @@ DeveloperUtilitiesList=(
     wget
     nvm
     bash-completion
+    curl
+    openvpn
 )
 CaskDeveloperUtilitiesList=(
     postman
