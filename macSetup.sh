@@ -48,6 +48,9 @@ CaskGeneralToolList=(
     google-chrome
     firefox
     spotify
+    signal
+    discord
+    github-desktop
 )
 if [ "$General" != "${General#[Yy]}" ] ;then
     echo Yes
@@ -94,24 +97,16 @@ echo -n "Do you wish to install Developer Utilities (${bold}${green}y${reset}/${
 read DeveloperUtilities
 
 DeveloperUtilitiesList=(
-    tree
-    ctop
     jq
-    httpie
     yarn
     yarn-completion
-    netcat
     nmap
     wget
-    go
     nvm
     bash-completion
 )
 CaskDeveloperUtilitiesList=(
-    cheatsheet
-    spectacle
     postman
-    dotnet-sdk
     wireshark
     # google-chrome-canary
     # firefox-developer-edition
@@ -178,9 +173,6 @@ read IDEs
 
 CaskIDEsList=(
     visual-studio-code
-    intellij-idea
-    visual-studio
-    android-studio
 )
 if [ "$IDEs" != "${IDEs#[Yy]}" ] ;then
     echo Yes
@@ -199,19 +191,14 @@ read DevOps
 
 DevOpsToolList=(
     terraform
-    vault
-    consul
     nomad
-    packer
-    terragrunt
-    ansible
+    
+  
     awscli
     aws-sam-cli
-    kompose
 )
 CaskDevOpsToolList=(
     vagrant
-    vmware-fusion
     virtualbox
     docker
     vagrant-manager
@@ -253,12 +240,8 @@ read Productivity
 
 CaskProductivityToolList=(
     slack
-    evernote
-    the-unarchiver
     dash
     gpg-suite
-    microsoft-teams
-    microsoft-office
     zoomus
 )
 if [ "$Productivity" != "${Productivity#[Yy]}" ] ;then
