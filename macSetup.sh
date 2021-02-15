@@ -48,9 +48,7 @@ CaskGeneralToolList=(
     google-chrome
     firefox
     spotify
-    signal
-    discord
-    github-desktop
+    github
 )
 if [ "$General" != "${General#[Yy]}" ] ;then
     echo Yes
@@ -242,9 +240,12 @@ read Productivity
 
 CaskProductivityToolList=(
     slack
-    dash
     gpg-suite
     zoomus
+    lastpass
+    signal
+    discord
+    github
 )
 if [ "$Productivity" != "${Productivity#[Yy]}" ] ;then
     echo Yes
