@@ -63,7 +63,8 @@ echo -n "Do you wish to install Developer Utilities (${bold}${green}y${reset}/${
 read DeveloperUtilities
 
 DeveloperUtilitiesList=(
-    jq
+   ruby
+   jq
     yarn
     wget
     nvm
